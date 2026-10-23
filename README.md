@@ -1,1 +1,1 @@
-# kampusx-legal
+KampusX Legal Website
