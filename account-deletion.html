@@ -58,8 +58,8 @@ input:focus,select:focus,textarea:focus{outline:3px solid #6C3BFF2b;border-color
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 // Replace these two public values with the KampusX Supabase project URL and anon/publishable key.
 // These are public client values; NEVER put the service-role key in this file.
-const SUPABASE_URL = 'REPLACE_WITH_KAMPUSX_SUPABASE_URL';
-const SUPABASE_ANON_KEY = 'REPLACE_WITH_KAMPUSX_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'https://zakjorblzsofwftcfxpv.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inpha2pvcmJsenNvZndmdGNmeHB2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg3MTU4MjAsImV4cCI6MjEwNDI5MTgyMH0.04cA8gn-6QHuK-Vm5P2db1XAx-h_QVXwl5C5gLmfhWE';
 const $ = (id) => document.getElementById(id);
 const showStatus = (el, message, type='err') => { el.textContent = message; el.className = `status show ${type}`; };
 if (SUPABASE_URL.startsWith('REPLACE_') || SUPABASE_ANON_KEY.startsWith('REPLACE_')) {
